@@ -14,6 +14,7 @@ const Navbar = () => {
     className="w-full flex justify-between items-center p-1 fixed">
       <div className="flex justify-start items-center">
         {/* <img src={images.logo} className="w-[90px] h-[20px] " alt="logo" /> */}
+        <div className='text-4xl font-bold'>myPortfolio</div>
       </div>
       <ul className="flex-1 justify-center items-center list-none flex"> 
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
